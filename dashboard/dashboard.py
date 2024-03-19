@@ -61,7 +61,7 @@ date_max = all_df["order_purchase_timestamp"].max()
 
 with st.sidebar:
     # Menambah logo perusahaan
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.image("shop.png")
     
     # Mengambil start date dan end date dari date input
     
@@ -80,7 +80,7 @@ product_byrevenue_df = create_product_byrevenue_df(main_df)
 revenue_bystates_df = create_revenue_bystates_df(main_df)
 rfm = create_rfm_df(main_df)
 
-st.header('Olist eCommerce Dashboard :sparkles:')
+st.header('OTRA ECommerce Dashboard :sparkles:')
 
 st.subheader('Best and Worst Performing Product Categories Based On Review')
 
